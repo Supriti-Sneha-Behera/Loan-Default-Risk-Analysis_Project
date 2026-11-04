@@ -1,4 +1,4 @@
-# LoanDefaultRisk Analysis Project
+# Loan Default Risk Analysis Project
 
 # Project Overview
 Banks give loans to customers but not everyone successfully repays them. When customers fail to repay their loans, banks face financial losses...
