@@ -13,11 +13,16 @@ Banks give loans to customers but not everyone successfully repays them. When cu
 
 # Purpose of Tools
 * MySQL
-  * We imported the raw CSV data into a structured MySQL database, scripts to check for NULL          values across critical fields and scanning for duplicate records to prevent skewed metrics.
-  * Raw continuous variables were transformed into logical business brackets using SQL CASE           statements.
-  * We engineered multi-variable SQL queries to expose interacting risk multipliers that standard     reports miss. 
+  * imported the raw CSV data into a structured MySQL database, scripts to check for NULL               values across critical fields and scanning for duplicate records to prevent skewed metrics.
+  * Raw continuous variables were transformed into logical business brackets using SQL CASE             statements.
+  * engineered multi-variable SQL queries to expose interacting risk multipliers that standard          reports miss. 
 * Microsoft PowerBI
-  *
+  * It bridges complex backend data to bring interacting risk factors such as credit tiers, debt
+    to-income ratios, and employment tenure to life in an intuitive visual layout.
+  * It allows risk managers to dynamically filter across borrower segments and co-signer statuses       to pinpoint toxic underwriting clusters and guide proactive lending decisions.
+
+# Dashboard Walkthrough
+<img width="1432" height="797" alt="LoanDefaultRiskAnalysis_Dasboard_Picture" src="https://github.com/user-attachments/assets/982a28b0-497c-4a56-a603-646d26f3a77e" />
 
 # Recommendations
 
