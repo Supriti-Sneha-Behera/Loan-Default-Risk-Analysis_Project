@@ -23,10 +23,10 @@ Banks give loans to customers but not everyone successfully repays them. When cu
 
 # Dashboard Walkthrough
 <img width="1432" height="806" alt="LoanDefaultRiskAnalysis_Dasboard_Picture" src="https://github.com/user-attachments/assets/5e79fee4-18ef-4160-a284-100d1119c306" />
-*Top-Level KPI Cards: Instantly display portfolio scale, volume, and monetary default exposure to ground stakeholders in the financial stakes.
-*Credit Score & DTI Distribution Charts: Map default rates across credit tiers and debt-to-income ratios to highlight how high debt and poor credit compound risk.
-*Employment Stability & Income Matrix: Evaluate career tenure and income brackets to demonstrate how short job history acts as a primary risk multiplier.
-*Co-Signer & Loan Purpose Breakdown: Examine structural risk mitigators to highlight the dramatic protective effect of co-signers in lowering default rates.
+* Top-Level KPI Cards: Instantly display portfolio scale, volume, and monetary default exposure to ground stakeholders in the financial stakes.
+* Credit Score & DTI Distribution Charts: Map default rates across credit tiers and debt-to-income ratios to highlight how high debt and poor credit compound risk.
+* Employment Stability & Income Matrix: Evaluate career tenure and income brackets to demonstrate how short job history acts as a primary risk multiplier.
+* Co-Signer & Loan Purpose Breakdown: Examine structural risk mitigators to highlight the dramatic protective effect of co-signers in lowering default rates.
 
 # Recommendations
 
