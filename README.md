@@ -13,16 +13,20 @@ Banks give loans to customers but not everyone successfully repays them. When cu
 
 # Purpose of Tools
 * MySQL
-  * imported the raw CSV data into a structured MySQL database, scripts to check for NULL               values across critical fields and scanning for duplicate records to prevent skewed metrics.
+  * Imported the raw CSV data into a structured MySQL database, scripts to check for NULL               values across critical fields and scanning for duplicate records to prevent skewed metrics.
   * Raw continuous variables were transformed into logical business brackets using SQL CASE             statements.
-  * engineered multi-variable SQL queries to expose interacting risk multipliers that standard          reports miss. 
+  * Engineered multi-variable SQL queries to expose interacting risk multipliers that standard          reports miss. 
 * Microsoft PowerBI
   * It bridges complex backend data to bring interacting risk factors such as credit tiers, debt
     to-income ratios, and employment tenure to life in an intuitive visual layout.
   * It allows risk managers to dynamically filter across borrower segments and co-signer statuses       to pinpoint toxic underwriting clusters and guide proactive lending decisions.
 
 # Dashboard Walkthrough
-<img width="1432" height="797" alt="LoanDefaultRiskAnalysis_Dasboard_Picture" src="https://github.com/user-attachments/assets/982a28b0-497c-4a56-a603-646d26f3a77e" />
+<img width="1432" height="806" alt="LoanDefaultRiskAnalysis_Dasboard_Picture" src="https://github.com/user-attachments/assets/5e79fee4-18ef-4160-a284-100d1119c306" />
+*Top-Level KPI Cards: Instantly display portfolio scale, volume, and monetary default exposure to ground stakeholders in the financial stakes.
+*Credit Score & DTI Distribution Charts: Map default rates across credit tiers and debt-to-income ratios to highlight how high debt and poor credit compound risk.
+*Employment Stability & Income Matrix: Evaluate career tenure and income brackets to demonstrate how short job history acts as a primary risk multiplier.
+*Co-Signer & Loan Purpose Breakdown: Examine structural risk mitigators to highlight the dramatic protective effect of co-signers in lowering default rates.
 
 # Recommendations
 
