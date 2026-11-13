@@ -37,6 +37,13 @@ Banks give loans to customers but not everyone successfully repays them. When cu
 * Borrowers without an existing mortgage have a higher default rate (12.35%) than those with a mortgage (10.88%).
  
 # Recommendations
+* Restrict unsecured lending when a borrower's DTI ratio exceeds (0.60) with less than 2 years of employment tenure.
+* Mandate verified co-signers or collateral for applicants with low income (<$50K) or subprime credit scores (<500).
+* Place strict approval limits and collateral requirements on large loans ($200K–$250K), unless offset by strong credit scores (700+).
+* Cap unsecured loans exceeding 150K for young adults aged (18–30) who lack a co-signer.
+* Enforce tighter DTI limits and secondary income verification for Unemployed or Part-time applicants without co-signers.
+* Automatically flag or penalize applications where borrowers juggle 3+ open credit lines alongside a high DTI (>0.60).
+* Establish automated early-warning alerts for existing borrowers in high interest-rate tiers (20%–25%) who show expanding credit lines.
 
 # Dashboard Walkthrough
 <img width="1432" height="806" alt="LoanDefaultRiskAnalysis_Dasboard_Picture" src="https://github.com/user-attachments/assets/5e79fee4-18ef-4160-a284-100d1119c306" />
