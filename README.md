@@ -1,15 +1,18 @@
 # Loan Default Risk Analysis Project
+---
 
 # Project Overview
 Banks give loans to customers but not everyone successfully repays them. When customers fail to repay their loans, banks face financial losses...
 * So, I have worked on this project using MySQL and Microsoft Power BI to analyse 255,000+ rows of historical loan data and identify which customer segments were more likely to default on their loans.
 * Instead of automatically rejecting the applicant, this project helps the bank's credit team decide which application needs manual review.
 * And the ultimate goal of this project is to help the credit team and the bank understand the patterns behind loan defaults so it can make better lending decisions in the future.
+---
 
 #  Tools Used
 * Microsoft Excel
 * MySQL
 * Microsoft Power BI
+---
 
 # Purpose of Tools
 * MySQL
@@ -20,6 +23,7 @@ Banks give loans to customers but not everyone successfully repays them. When cu
   * It bridges complex backend data to bring interacting risk factors such as credit tiers, debt
     to-income ratios, and employment tenure to life in an intuitive visual layout.
   * It allows risk managers to dynamically filter across borrower segments and co-signer statuses to pinpoint toxic underwriting clusters and guide proactive lending decisions.
+---
 
 # Key Analytical Insights
 * Default rates decreases with age, with young borrowers (18–30) showing the highest default rate (19.39%), compared to just 5.05% for older borrowers (61–69).
@@ -35,6 +39,7 @@ Banks give loans to customers but not everyone successfully repays them. When cu
 * Loans without a co-signer (12.87%) and borrowers without dependents (12.72%) show higher defaults than co-signed loans (10.36%) with dependents (10.50%).
 * Divorced (12.53%) and single borrowers (11.91%), along with high school graduates (12.88%), show higher default rates, while married borrowers (10.40%) and advanced degree holders, particularly PhD (10.59%), show less default rates.
 * Borrowers without an existing mortgage have a higher default rate (12.35%) than those with a mortgage (10.88%).
+---
  
 # Recommendations
 * Restrict unsecured lending when a borrower's DTI ratio exceeds (0.60) with less than 2 years of employment tenure.
@@ -44,14 +49,17 @@ Banks give loans to customers but not everyone successfully repays them. When cu
 * Enforce tighter DTI limits and secondary income verification for Unemployed or Part-time applicants without co-signers.
 * Automatically flag or penalize applications where borrowers juggle 3+ open credit lines alongside a high DTI (>0.60).
 * Establish automated early-warning alerts for existing borrowers in high interest-rate tiers (20%–25%) who show expanding credit lines.
+---
 
 # Dashboard Walkthrough
 <img width="1432" height="806" alt="LoanDefaultRiskAnalysis_Dasboard_Picture" src="https://github.com/user-attachments/assets/5e79fee4-18ef-4160-a284-100d1119c306" />
+---
 
 * Top-Level KPI Cards: Instantly display portfolio scale, volume, and monetary default exposure to ground stakeholders in the financial stakes.
 * Credit Score & DTI Distribution Charts: Map default rates across credit tiers and debt-to-income ratios to highlight how high debt and poor credit compound risk.
 * Employment Stability & Income Matrix: Evaluate career tenure and income brackets to demonstrate how short job history acts as a primary risk multiplier.
 * Co-Signer & Loan Purpose Breakdown: Examine structural risk mitigators to highlight the dramatic protective effect of co-signers in lowering default rates.
+---
 
 # Repository Structure
 1. README.md - project document
